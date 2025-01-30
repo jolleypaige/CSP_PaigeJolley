@@ -1,6 +1,6 @@
 # Paige Jolley, Python Variable Practice
 
-name = Paige
+name = "Paige"
 
 small_number = 2
 
