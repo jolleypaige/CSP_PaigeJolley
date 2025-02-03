@@ -2,5 +2,4 @@
 
 color = input("yellow")
 
-print("my favorite color is ", color)
-
+print(color)
