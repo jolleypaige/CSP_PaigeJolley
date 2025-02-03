@@ -19,7 +19,7 @@ int main(void){
     printf("The school name is %s. \n", school);
     printf("The year is %s. \n", year);
     printf("I am %s years old. \n", age);
-    printf("My favorite subject in school is %s. \n", subject)
+    printf("My favorite subject in school is %s. \n", subject);
 
 }
   

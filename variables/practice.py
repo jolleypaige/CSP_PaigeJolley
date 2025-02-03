@@ -1,12 +1,12 @@
 # Paige Jolley, Python Variable Practice
 
-name = ("My name is Paige.")
+name = ("my name is paige.")
 
 smallNumber = 4
 
 large_number = 101
 
-breakfast = ("I had a Waffle for breakfast.")
+breakfast = ("I had a waffle for breakfast.")
 
 color = ("My favorite color is Yellow.")
 
