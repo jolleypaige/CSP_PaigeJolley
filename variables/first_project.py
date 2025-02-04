@@ -1,5 +1,3 @@
 # Paige Jolley, First Project Python
 
-color = input("yellow")
-
-print(color)
+name = input("What is your name: ")
