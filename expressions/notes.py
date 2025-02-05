@@ -19,3 +19,7 @@ num += 2
 pi = 3.1415926535
 
 print(f"{pi:.4f}") #rounding
+
+#mulitplication = *
+#[]=()
+#9(2squared) = 9*()
