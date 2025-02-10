@@ -40,19 +40,19 @@ percent_income_of_transportation = transportation/income *100
 percent_income_of_spending = spending/income *100
 
 # Your rent is $XX.XX and which is XX% of your income. (print)
-print("Your rent is ",rent," an which is ",percent_income_of_rent %" of your income. \n")
+print(f"Your rent is {rent} an which is {percent_income_of_rent} % of your income. \n")
 
 # Your utilities is $XX.XX and which is XX% of your income. (print)
-print("Your utilities is $XXX.XX and which is XX% of your income. \n")
+print(f"Your utilities is {utilities} and which is {percent_income_of_utilites} % of your income. \n")
 
 # Your groceries is $XX.XX and which is XX% of your income. (print)
-print("Your groceries is $XXX.XX and which is XX% of your income. \n")
+print(f"Your groceries is {groceries} and which is {percent_income_of_groceries} % of your income. \n")
 
 # Your transportation is $XX.XX and which is XX% of your income. (print)
-print("Your transportation is $XXX.XX and which is XX% of your income. \n")
+print(f"Your transportation is {transportation} and which is {percent_income_of_transportation} % of your income. \n")
 
 # Your savings is $XX.XX and which is XX% of your income. (print)
-print("Your savings is $XXX.XX and which is XX% of your income. \n")
+print(f"Your savings is {savings} and which is {savings} % of your income. \n")
 
 # Your spending is $XX.XX and which is XX% of your income. (print)
-print("Your spendings is $XXX.XX and which is XX% of your income. \n")
+print(f"Your spendings is {spending} and which is {percent_income_of_spending}% of your income. \n")
