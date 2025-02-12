@@ -21,10 +21,10 @@ int main(void){
     char one[] = "Hello ";
     char two[] = "World! ";
     char three[] = "Welcome to my program. ";
-    printf("%s\n," one);
-    stcat(one, two); 
-    printf("%s\n," one);
-    stcat(three, one); //can only concatenate 2 thins at a time
+    printf("%s\n", one);
+    strcat(one, two); 
+    printf("%s\n", one);
+    strcat(three, one); //can only concatenate 2 thins at a time
     return 0;
 
 }
