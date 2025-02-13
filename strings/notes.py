@@ -15,10 +15,10 @@
 #print(f"Hello {name} welcome to my program!")
 # print("this is your name "+ name)
 
-sentance = "The quick brown fox jumps over the lazy dog."
+sentence = "The quick brown fox jumps over the lazy dog."
 
 # print(len(sentance))
 # print(sentance[4])
-print(sentance.find("brown"))
+print(sentence.find("brown"))
 length = len("brown fox")
-print(sentance[start:start+length])
+print(sentence[start:start+length])
