@@ -4,6 +4,10 @@
 print("Welcome! This program will create a silly story based on what the words write. \n")
 
 # ask user for words (print statement with a questions scanf to set to variable) part of above (in C we need to tell the user that they can only typer 1 word)
+adjective = input("Name an adjective: ")
+noun = input("Name a noun: ")
+verb = input("Name a verb: ")
 
+print("The "+adjective+" pig "+verb+" the "+noun)
 
  # print out the story with the variables inserted ("welcome %s to my program", name)
