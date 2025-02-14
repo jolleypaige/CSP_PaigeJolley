@@ -6,12 +6,12 @@
 int main(void){
     char name[50];
     printf("What is your name?\n");
-    scanf("%s", &name);
-    return 0;  
+    scanf("%s", name);
 
     char left[30] = "===";
     char right[30] = "===";
     strcat(left, name);
     strcat(left, right);
     printf("Your name is %s\n", left);
+     return 0;  
 }
