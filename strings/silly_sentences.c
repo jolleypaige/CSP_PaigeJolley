@@ -4,7 +4,7 @@
 
 int main(void){
     // Welcome for the user telling them what the program is (print)
-    printf("Welcome! This program will create a silly story based on what the words write. \n");
+    printf("Welcome! This program will create a silly story based on what the words write. For this to work, write only one word! \n");
     
     // ask user for words (print statement with a questions scanf to set to variable) part of above (in C we need to tell the user that they can only typer 1 word)
     char adjective[20];
