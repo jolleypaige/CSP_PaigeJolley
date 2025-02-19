@@ -5,7 +5,7 @@
 def add(numOne, numTwo): # parameters set the name of the variable (just for the function)
     return numOne + numTwo
 
-#add(number,12) #arguments set the value of the variable just for that instance of the function
+add(number,12) #arguments set the value of the variable just for that instance of the function
 #add(6,4)
 #add(11, 10000)
 #add(87, 3)
