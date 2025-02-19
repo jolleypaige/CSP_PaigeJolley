@@ -6,13 +6,17 @@ int add(int numOne, int numTwo){
     return numOne+numTwo;
 
 }
-const char* word(type){
-    char choice[50];
-    printf("Please give me a %s:\n", type);
-    scan("%s", choice);
-    return choice;
+//void due(char assignment[50], char day[50]);{
+    //printf("The %s assignment is due %s", assignment, day);
 
-}
+//}
+
+//const char* word(type){
+   // char choice[50];
+    ///printf("Please give me a %s:\n", type);
+    //scan("%s", choice);
+    //return choice;
+//
 
 
 int main(void){
@@ -20,6 +24,9 @@ int main(void){
     //scanf("%d", num);
     //add(4,10);
     //add(8,1);
-    printf("%d", add(72,5));
-    return 0;  
+    due("Functions Notes", "Today");
+    //due("Functions Notes", "Today")
+    //due("Finacial Calculator Update", "Friday")
+    //printf("%d", add(72,5));
+    //return 0;  
 }
