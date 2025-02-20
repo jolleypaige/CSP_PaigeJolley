@@ -2,8 +2,37 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(void){
+void info(cost, income, type){
+
+
+    
+}
+
+
+void name(char bills[30]){
     printf("Welcome! This program will be your financial calculator.\n");
+    printf("What is your %s?\n", bills);
+
+}
+
+int main(void){
+    bills("rent");
+    bills("rent");
+    bills("rent");
+    bills("rent");
+    bills("rent");
+    bills("rent");
+
+
+
+
+
+
+
+
+
+
+
     int income;
     printf("What is your income?\n");
     scanf("%d", &income);

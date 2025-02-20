@@ -1,4 +1,4 @@
-// Paige Jolley, TEMPLATE
+// Paige Jolley, Financial Calculator C
 #include <stdio.h>
 #include <math.h>
 
