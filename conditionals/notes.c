@@ -31,7 +31,7 @@ if(num == 0){
 // && = and 
 // || = or
 // ! = not
-if(num ,10 && num >5){
+if(num <10 && num >5){
     printf("That is an unlucky number\n");
 }else if (num == 7 ) || num == 13){
     printf("%d is a large single digit number\n", num);

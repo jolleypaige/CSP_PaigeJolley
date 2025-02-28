@@ -20,17 +20,17 @@ else: #if the boolean is false, the else statemet happens
 # What do else statements do?
 
 # What kind of statement do you use if you have more than 2 needed outcomes?
-num = 2
+# num = 2
 # computers read top to bottom, check the least likely first
-if num == 0: # <= if always starts the conditional
+# if num == 0: # <= if always starts the conditional
     print("There are none.")
-elif num == 1: #everything inbetween should be elif
+# elif num == 1: #everything inbetween should be elif
     print("There is one.")
-elif num <4:
+# elif num <4:
     print("There are couple.")
-elif num < 10:
+#elif num < 10:
     print("There are few.")
-else: # <= else always ends the conditionals
+#else: # <= else always ends the conditionals
     print("There are many")
 
 # What do each of the different symbols mean in conditionals?
@@ -65,10 +65,4 @@ else: # <= else always ends the conditionals
         else:
         #print("The number is less than 10")
 #else:
-    #print("The number is bigger than 10")
-
-
-# How do you write an if statement in C?
-# How do you write else statements in C?
-# How do you write elif/ else if statements in C?
-#How do you write the 3 logical operators in C?
+    #print("The number is bigger than 10")}
