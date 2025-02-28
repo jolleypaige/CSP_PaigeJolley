@@ -20,7 +20,7 @@ scanf("%d", &num);
 //How do you write elif/ else if statements in C?
 if(num == 0){
     printf("You are an only child\n");
-}else if(num ,= 2){
+}else if(num <= 2){
     printf("You have a couple of siblings\n");
 }else if(num <= 5){
     printf("You have a few siblings\n");
