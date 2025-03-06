@@ -61,7 +61,7 @@ for(m=0;m<mlength;m++){
 
     while(w<100)
         printf("%d\n", w);
-        w +=10:
+        w +=10;
    
     return 0;  
 }

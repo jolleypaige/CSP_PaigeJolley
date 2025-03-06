@@ -9,14 +9,14 @@ int main(void){
 int hour = tm_struc->tm_hour;
     printf("%d\n", hour); 
 
-if(hour >6 && hour >12){
+if(hour <= 12){
     printf("Good Morning!\n");
+}else if(hour >= 13){
+    printf("Good Afternoon!\n");
 }else if(hour >= 18){
-    printf("You can vote.\n");
-}else if(hour >= 16){
-    printf("You can drive.\n");
+    printf("Good Evening\n");
 }else{
-    printf("You are young.\n");
+    printf("It is night.\n");
 }
     return 0;  
 }
