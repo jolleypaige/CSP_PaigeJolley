@@ -1,0 +1,1 @@
+now = time.ctime(current)
