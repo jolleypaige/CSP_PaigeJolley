@@ -3,35 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <title>HTML Advanced Notes</title>
-        <!--This is where the CCS goes-->
-        <style>
-            *{
-                background-color: black;
-                color: rgb(154, 22,1);
-            }
-            p{
-                color:rgba(23, 45, 34,);
-                text-align: center;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-            }
-            #lists{
-                color: limegreen;
-            }
-            .example{
-                color: red;
-            }
-            #img-src{
-                font-size: 8px;
-                color:gray
-            }
-            img{
-                width: 25%
-            }
-        </style>
     </head>
     <body>
         <div id="Intro">
-        <h1>Cascading Style Sheets</h1>
+        <h1>HTML Advanced Notes</h1>
         <p>Nested Tag is just a tag that exists inside of another tag. Some tags regquire nesting and others should not be. </p>
         <p>An attribute is further instructions for the compter given inside of the opening tag. Such as the id we gave or div or inside of the meta tag</p>
     </div>
@@ -42,7 +17,8 @@
                 <li>Another Item</li>
                 <li>Another Item</li>
         </ol>
-        <ul>
+        <ul
+            style="list-style-type:disc">
             <li> Way of thing</li>
             <li>Skyward</li>
             <li>Mistborn</li>
@@ -54,14 +30,14 @@
             <dd>Last Airbender, <a href="https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender"
                 target ="_blank">Avatar</a>. Kinda silly, easily disctracted. </dd>
             <dt>Katara</dt>
-            <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png" alt="Katara water bending">
-            <dt id="img-src">Image from: Wikipedia</dt>
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/Katara.png" alt="Katara water bending" height="100px">
+            <small></small><dt>Image from: Wikipedia</dt>
             <dd>Water Bender. Preachy crybaby who makes speaches about hope all the time. </dd>
         </dl>
         <a href="https://www.w3schools.com/Html/html_links.asp" target="_blank">To Learn About Links</a>
     </div>
     <div id="images">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZALPY7Q9hX-vg0dKvCrEGf61pkOA5jmfRA&s" alt="Aang Bartering"> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3ZALPY7Q9hX-vg0dKvCrEGf61pkOA5jmfRA&s" alt="Aang Bartering" height="100px"> 
         <p>Image from: Pinterest</p>
     </div>
     </body>
