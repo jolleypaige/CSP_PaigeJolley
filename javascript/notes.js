@@ -13,7 +13,8 @@ function change(){
 }
     }
 function hello(){
-    document.getElementById("title").innerHTML = "Hello World!"
+    let name = window.prompt("What is your name?", "Paige Jolley")
+    document.getElementById("title").innerHTML = "Hello " + name + "!"
 }
 function hover(){
     document.getElementById("img").src = "https://www.discovermoab.com/wp-content/uploads/2017/10/Autumn-Sunset-at-Warner-Lake.jpg"
@@ -21,6 +22,9 @@ function hover(){
 function leave(){
     document.getElementById("img").src = "https://images.squarespace-cdn.com/content/v1/63c60d44c98af85334537583/644359f9-c213-4d77-bdb0-b78b7f8424f3/Mount_Timpanogos_at_sunset.jpg"
 }
-function hidden(){
-    document.getElementById("meme").style.display = "block"
+function pop(){
+    window.alert("Really don't click that!")
+}
+function show(){
+    document.getElementById("lost").style.display = "block"
 }
