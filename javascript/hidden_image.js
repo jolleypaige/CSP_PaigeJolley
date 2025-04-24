@@ -1,4 +1,4 @@
 
 function show(){
-    document.getElementById("picture").style.display = "block"
+    document.getElementById("amur").style.display = "block"
 }
