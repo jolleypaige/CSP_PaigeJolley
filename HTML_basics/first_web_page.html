@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF_8">
         <title>Protecting Our Home</title>
+        <script src="fwp.js"></script>
         <style>
         
             body{
@@ -13,14 +14,11 @@
                 font-style: normal;
                 display: grid;
                 grid-template-columns: 1fr 3fr;
-              
             }
             #img src{
                 width: 10%;
                 padding: 100px;
                 margin: 6px;
-                
-            
             }
             #images{
                 width: 20%;
@@ -29,17 +27,14 @@
             #home{
             text-align: center;
             flex-direction:column
-
             }
             p{
             padding: 20px;
             margin: 10px;
             }
-
             #home{
                 display: flex;
                 gap: 1rem;
-                
             }
             #more{
                 display: none;
@@ -63,8 +58,8 @@
             <p>
             Climate change impacts ourselves personally and our society in numerous different ways. Flooding, caused by excessive amounts of rain on dry land, can conduct the spread of disease, death, and damage ecosystems and infrastructure. Drought, caused by increase of temperature, harms food production and human health. These human health issues caused by flooding, drought, and many, many other damaging weather conditions, increase the death rate, change food availability, and limit how much a worker can get done, and ultimately the productivity of our economy.
         </p>
-    </div>
-    <div id="lists">
+            </div>
+             <div id="lists">
         <p> How Can YOU Help Protect Our Planet?</p>
         <ol>
             <li>Bike More, Drive less</li>
@@ -83,16 +78,19 @@
         <img src="https://cdn.oceanservice.noaa.gov/oceanserviceprod/ocean/earthday-infographic.jpg" alt="Things you can do now!"> 
         <p>Image from: <a href="https://oceanservice.noaa.gov/ocean/earthday.html" target="_blank"> Ocean Service </a></p>
     </div>
+    
+    <img id="img" 
+    onmouseover= "change()"
+    scr="https://www.un.org/sites/un2.un.org/files/2021/09/climatechange11.jpg" alt="climatechange11">
+    <br>
+
     <button id="show" onclick="view()">Show More</button>
-    <div id="more">
-        <p> akjhdhkjskdhfskjhfslfh  </p>
-        <ul>
-            <li>khdsfkjdhf</li>
-            <li>khdsfkjdhf</li>
-            <li>khdsfkjdhf</li>
-            <li>khdsfkjdhf</li>
-        </ul>
-    </div>
+        <div id="more">
+            <p>We have two choices, pay the bill now, or pay the price in the dear future. Significant financial investments by governments and businesses is required for climate action. With that said, climate inaction is incredibly more expensive. An important and critical step for countries that are developed is to support countries that are growing. Doing this action to developing countries is so they can adapt and grow towards greener economies. </p>
+            <img src="https://www.un.org/sites/un2.un.org/files/2021/08/financial-investment.jpg" alt="financial-investment">
+            <small></small><dt>Image from: United Nation</dt>
+        </div>
+
     </body>
 
 </html>
