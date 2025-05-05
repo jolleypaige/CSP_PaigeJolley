@@ -1,4 +1,5 @@
 body{
+    font-size: 20;
     background-color: rgb(203, 216, 233);
     color: rgb(66, 66, 66);
     font-family: "Open Sans", sans-serif;
@@ -11,18 +12,33 @@ body{
     
 }
 img{
-   height: 30%;
-    width: 45%; 
-    margin: 15px;
+   height: auto;
+    width: auto; 
+    margin: 10px;
     padding: 10px;
-    
 }
-#img src{
-    height: 30%;
-    width: 45%; 
-    margin: 15px;
-    padding: 10px
+#flex-container{
+    height: 50%;
+    width: auto; 
+    margin: 10px;
+    padding: 10px;
+}
+#imgs{
+    height: 50%;
+    width: auto; 
+    margin: 10px;
+    padding: 10px;
+    display: center;
 }
 #more{
     display: none;
 }
+h1{
+    text-align: center;
+}
+#potato{
+    display: flex;
+}
+#run[
+    display: flex;
+]
