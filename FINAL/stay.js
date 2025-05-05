@@ -14,10 +14,10 @@ function change(){
 function view(){
     if(document.getElementById("more").style.display === "block"){
         document.getElementById("more").style.display = "none"
-        document.getElementById("show").innerHTML = "Want to Learn About the Canals? Click Here to Show More!"
+        document.getElementById("show").innerHTML = "Want to Learn About the Canals on The Bonneville Flats? Click Here to Show More!"
     }else{
         document.getElementById("more").style.display = "block"
-        document.getElementById("show").innerHTML = "I'm Done Learning... Show Less"
+        document.getElementById("show").innerHTML = "I'm Done... Show Less"
     }
  
 }

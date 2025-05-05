@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(203, 216, 233);
+    color: rgb(66, 66, 66);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin: 15px;
+    padding: 10px;
+    
+}
+img{
+   height: 30%;
+    width: 45%; 
+    margin: 15px;
+    padding: 10px;
+    
+}
+#img src{
+    height: 30%;
+    width: 45%; 
+    margin: 15px;
+    padding: 10px
+}
+#more{
+    display: none;
+}
